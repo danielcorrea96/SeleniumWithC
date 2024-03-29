@@ -1,0 +1,288 @@
+{
+	"info": {
+		"_postman_id": "79c09dfc-0643-4fbc-b537-0b26432c40b7",
+		"name": "PetStore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4620915",
+		"_collection_link": "https://blue-star-729894.postman.co/workspace/Team-Workspace~43153af9-1231-487a-84b6-0ba4803647b5/collection/4620915-79c09dfc-0643-4fbc-b537-0b26432c40b7?action=share&source=collection_link&creator=4620915"
+	},
+	"item": [
+		{
+			"name": "Create User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.collectionVariables.set(\"DataUser\", pm.request.body.raw);",
+							"",
+							"",
+							"",
+							"if (pm.response.to.have.status(200)){",
+							"",
+							"    postman.setNextRequest(\"Update User\");",
+							" ",
+							"}",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": {{$randomInt}},\n  \"username\": \"{{$randomUserName}}{{$randomInt}}\",\n  \"firstName\": \"{{$randomFirstName}}\",\n  \"lastName\": \"{{$randomLastName}}\",\n  \"email\": \"{{$randomEmail}}\",\n  \"password\": \"{{$randomPassword}}\",\n  \"phone\": \"{{$randomPhoneNumber}}\",\n  \"userStatus\": {{$randomInt}}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL_BASE}}user",
+					"host": [
+						"{{URL_BASE}}user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"var value = JSON.parse(pm.collectionVariables.get(\"DataUser\"));",
+							"pm.variables.set(\"body\",value);",
+							"",
+							"pm.variables.set(\"id\",value.id)",
+							"pm.variables.set(\"username\",value.username)",
+							"pm.variables.set(\"firstName\",value.firstName)",
+							"pm.variables.set(\"lastName\",value.lastName)",
+							"pm.variables.set(\"email\",value.email)",
+							"pm.variables.set(\"password\",value.password)",
+							"pm.variables.set(\"phone\",value.phone)",
+							"pm.variables.set(\"userStatus\",value.userStatus)",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.collectionVariables.set(\"DataUser\",pm.request.body.raw);",
+							"",
+							"pm.collectionVariables.set(\"username\",JSON.parse(pm.request.body.raw).username);",
+							"",
+							"if (pm.response.to.have.status(200)){",
+							"   ",
+							"    postman.setNextRequest(\"Get User\");",
+							" ",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": {{$randomInt}},\n  \"username\": \"{{username}}\",\n  \"firstName\": \"{{firstName}}\",\n  \"lastName\": \"{{lastName}}\",\n  \"email\": \"{{email}}\",\n  \"password\": \"{{password}}\",\n  \"phone\": \"{{phone}}\",\n  \"userStatus\": {{userStatus}}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL_BASE}}user/{{username}}",
+					"host": [
+						"{{URL_BASE}}user"
+					],
+					"path": [
+						"{{username}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"console.log(\"entramos en request get\");",
+							"console.log(pm.collectionVariables.get(\"username\"));",
+							"var value = JSON.parse(pm.collectionVariables.get(\"DataUser\"));",
+							"pm.collectionVariables.set(\"username\",value.username)",
+							"console.log(value)",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"if (pm.response.to.have.status(200)){",
+							"   ",
+							"    postman.setNextRequest(\"Deleted User\");",
+							"   ",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{URL_BASE}}user/{{username}}",
+					"host": [
+						"{{URL_BASE}}user"
+					],
+					"path": [
+						"{{username}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleted User",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"if (pm.response.to.have.status(200)){",
+							"",
+							"    postman.setNextRequest(null);",
+							" ",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{URL_BASE}}user/{{username}}",
+					"host": [
+						"{{URL_BASE}}user"
+					],
+					"path": [
+						"{{username}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});",
+					"",
+					"pm.test(\"Response time is less than 2s\", function () {",
+					"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+					"});"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL_BASE",
+			"value": "https://petstore.swagger.io/v2/",
+			"type": "string"
+		},
+		{
+			"key": "DataUser",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "username",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

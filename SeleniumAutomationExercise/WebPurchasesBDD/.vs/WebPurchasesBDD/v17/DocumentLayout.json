@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|c:\\users\\daniel correa\\documents\\automatizacion\\seleniumwithc\\seleniumautomationexercise\\webpurchasesbdd\\webpurchasesbdd\\features\\buyproducts.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|solutionrelative:webpurchasesbdd\\features\\buyproducts.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|c:\\users\\daniel correa\\documents\\automatizacion\\seleniumwithc\\seleniumautomationexercise\\webpurchasesbdd\\webpurchasesbdd\\interactions\\stateelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|solutionrelative:webpurchasesbdd\\interactions\\stateelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|c:\\users\\daniel correa\\documents\\automatizacion\\seleniumwithc\\seleniumautomationexercise\\webpurchasesbdd\\webpurchasesbdd\\questions\\validateifthecart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|solutionrelative:webpurchasesbdd\\questions\\validateifthecart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|c:\\users\\daniel correa\\documents\\automatizacion\\seleniumwithc\\seleniumautomationexercise\\webpurchasesbdd\\webpurchasesbdd\\interactions\\click.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|solutionrelative:webpurchasesbdd\\interactions\\click.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|c:\\users\\daniel correa\\documents\\automatizacion\\seleniumwithc\\seleniumautomationexercise\\webpurchasesbdd\\webpurchasesbdd\\tasks\\deleteallproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|solutionrelative:webpurchasesbdd\\tasks\\deleteallproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|c:\\users\\daniel correa\\documents\\automatizacion\\seleniumwithc\\seleniumautomationexercise\\webpurchasesbdd\\webpurchasesbdd\\interactions\\scroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DACA0F3-391D-4BA4-8770-748180A1B81A}|WebPurchasesBDD\\WebPurchasesBDD.csproj|solutionrelative:webpurchasesbdd\\interactions\\scroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StateElement.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Interactions\\StateElement.cs",
+              "RelativeDocumentMoniker": "WebPurchasesBDD\\Interactions\\StateElement.cs",
+              "ToolTip": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Interactions\\StateElement.cs",
+              "RelativeToolTip": "WebPurchasesBDD\\Interactions\\StateElement.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA7wB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:07:38.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidateIfTheCart.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Questions\\ValidateIfTheCart.cs",
+              "RelativeDocumentMoniker": "WebPurchasesBDD\\Questions\\ValidateIfTheCart.cs",
+              "ToolTip": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Questions\\ValidateIfTheCart.cs",
+              "RelativeToolTip": "WebPurchasesBDD\\Questions\\ValidateIfTheCart.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:07:26.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Scroll.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Interactions\\Scroll.cs",
+              "RelativeDocumentMoniker": "WebPurchasesBDD\\Interactions\\Scroll.cs",
+              "ToolTip": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Interactions\\Scroll.cs",
+              "RelativeToolTip": "WebPurchasesBDD\\Interactions\\Scroll.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T16:46:01.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "buyProducts.feature",
+              "DocumentMoniker": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Features\\buyProducts.feature",
+              "RelativeDocumentMoniker": "WebPurchasesBDD\\Features\\buyProducts.feature",
+              "ToolTip": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Features\\buyProducts.feature",
+              "RelativeToolTip": "WebPurchasesBDD\\Features\\buyProducts.feature",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAZAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-03-29T16:43:41.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Click.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Interactions\\Click.cs",
+              "RelativeDocumentMoniker": "WebPurchasesBDD\\Interactions\\Click.cs",
+              "ToolTip": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Interactions\\Click.cs",
+              "RelativeToolTip": "WebPurchasesBDD\\Interactions\\Click.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBAAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T16:42:55.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteAllProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Tasks\\DeleteAllProduct.cs",
+              "RelativeDocumentMoniker": "WebPurchasesBDD\\Tasks\\DeleteAllProduct.cs",
+              "ToolTip": "C:\\Users\\Daniel Correa\\Documents\\Automatizacion\\SeleniumWithC\\SeleniumAutomationExercise\\WebPurchasesBDD\\WebPurchasesBDD\\Tasks\\DeleteAllProduct.cs",
+              "RelativeToolTip": "WebPurchasesBDD\\Tasks\\DeleteAllProduct.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABkAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T16:42:39.746Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
